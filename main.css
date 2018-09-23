@@ -1,0 +1,42 @@
+.header {
+    background-color: #4b73b3;
+    height: 60px;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 960px;
+}
+.contact {
+    display: flex;
+    text-align: right;
+    flex-flow: column;
+    width: 50%;
+    justify-content: center;
+}
+.logo_header {
+    height: 60px;
+}
+.logo {
+    width: 50%;
+}
+.phone {
+   color: white;
+}
+.time {
+    color: white;
+}
+.menu {
+    margin: 0 auto;
+    width: 960px;
+}
+.menu_items {
+    margin-bottom: 15px;
+}
+.phone {
+    text-decoration: none;
+}
+.menu_items_link{
+    text-decoration: none;
+}
+    
