@@ -1,37 +1,191 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    
     <meta charset="utf-8">
     <link href='main.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title> техническое задание №2 </title>
 </head>
 <body>
-<div class="header">
-    <div class="container">
-        <div class="logo">
-            <img class="logo_header" src="pics/logo.png">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href class="logo__link">
+                    <img class="logo__header" src="pics/logo.png" alt=" логотип">
+                </a>
+            </div>
+            <div class="contact">
+                <a href="#" class="phone"> 8(800)00-392-10</a>
+                <div class="holder"> 
+                <a href="#" class="time" data-title="пн-вс: 09:00-20:00  обед: 14:00-14:30 "> График работы</a>
+            </div>
+               </div>
         </div>
-        <div class="contact">
-            <a href="#" class="phone"> 8(00)00-392-10</a>
-            <a href="#" class="time"> График работы</a>
+    </header>  
+    <div class="container">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__items"> 
+                    <a href="#" class="menu__items__link">
+                        <span class="main"> ГЛАВНАЯ </span>
+                    </a>
+                </li>
+                <li class="menu__items"> 
+                    <a href="#" class="menu__items__link">
+                        <span class="comment"> ОТЗЫВЫ </span>
+                    </a>
+                </li>
+                <li class="menu__items"> 
+                    <a href="#" class="menu__items__link"> 
+                        <span class="crew"> ЭКИПАЖ </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="plane">
+                <img class="plane__pic" src="pics/plane1.png" alt=" самолет" width="900" height="299">
+            </div>
+            <div>
+                <h1 class="tariff"> Тарифы </h1>
+            </div>
+            <ul class="tariff__list">
+                <li class="tariff__standart">
+                    <img class="flower" alt="цветок" src="pics/flower.png" height="50" >
+                    <h5 class="standart"> СТАНДАРТ </h5>
+                    <p class="tariff__info"> Создан для вашего <br> комфортного отдыха </p>
+                    <ul class="info">
+                        <li class="listlist"> Питание включено</li>
+                        <li class="listlist"> Багаж (5кг)</li>
+                        <li class="listlist"> Детское кресло</li>
+                    </ul>
+                    <h1 class="price">$19 </h1>
+                </li>
+                <li class="tariff__premium">
+                    <img class="star__pic" src="pics/star_pic.png" alt="звезда" height="50" width="60">
+                    <h5 class="premium"> ПРЕМИУМ </h5>
+                    <p class="tariff__info"> Для любителей <br> хороших впечатлений</p>
+                    <ul class="info">
+                        <li class="listlist1"> Питание включено</li>
+                        <li class="listlist1"> Багаж (5кг)</li>
+                        <li class="listlist1"> Детское кресло</li>
+                    </ul>
+                    <h1 class="price"> $39 </h1>
+                </li>
+                <li class="tariff__laxherie">
+                    <img class="painter" alt=" краска" src="pics/painter.png" height="50">
+                    <h5 class="laxherie"> ЛАКШЕРИ </h5>
+                    <p class="tariff__info"> Всё самое лучшее <br>  и незабываемое </p>
+                    <ul class="info">
+                        <li class="listlist2">  Питание включено</li>
+                        <li class="listlist2"> Багаж (5кг)</li>
+                        <li class="listlist2"> Детское кресло</li>
+                    </ul>
+                    <h1 class="price"> $99</h1>
+                </li>
+            </ul>
+            <div class="lastnews">
+                <h1 class="last__news"> Последние новости </h1>
+            </div>
+            <ul class="the__last__news">
+                <li class="review">
+                    <div class="news">
+                        <div class="img__file">
+                            <img class="first__review" src="pics/plane_img.png" width="160" height="160" alt="первая аватарка">
+                        </div>
+                        <div class="review__info">
+                            <div class="review__date"> 12.10.2016</div>
+                            <h3 class="review__title"> Ночные перелёты дешевле!</h3>
+                            <p class="review__text"> Летящий с ночном  небе самолет - зрелище загадочное и романтичное. <br> Крылатая машина величественно плывёт в вышине, мерцая  разноцветными <br> огнями, и почему-то кажется, что она наполнена удивительными людьми, <br>  спешащими далеко-далеко по очень важными делам. </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="review">
+                    <div class="news">
+                        <div class="img__file">
+                            <img class="first__review" alt=" вторая автарка" src="pics/nature.png"width="160" height="160">
+                        </div>
+                        <div class="review__info">
+                            <div class="review__date"> 01.02.2016</div>
+                            <h3 class="review__title"> Путешествие в Грузию стало доступнее</h3>
+                            <p class="review__text"> Экскурсия по Грузии в 2017 от русских гидов: самые интересные <br> маршруты в Грузию от профиссиональных гидов. Обзорные, пешеходные, <br> автомобильные, тематические экскурсии по интереснм городам и курортам <br> Грузии. Не пропустите такую возможность!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="review"> 
+                    <div class="news">
+                        <div class="img__file">
+                            <img class="first__review" alt=" третья аватарка" src="pics/boy.png" height="160" width="160">
+                        </div>
+                        <div class="review__info"> 
+                            <div class="review__date"> 22.12.2015</div>
+                            <h3 class="review__title"> Детские авиабилеты доступны для бизнес-класса</h3>
+                            <p class="review__text"> Путешествие на самолете с детьми - небольшое испытание для родителей. <br> Но это не экстремальное приключение, а обычный цифилизованный поход. <br> Тем более, различные авиакомпании стараются помочь скидками на детские <br>  авиабилеты, специальным питанием и другими услугами на борту лайнера.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="switch">
+                <p class="pages">Страница 1 из 7</p> 
+                <ul class="switchlist">
+                   <div> 
+                        <img class="arrow" alt="стрелка" src="pics/pic2.png">
+                    </div>
+                        <li class="switch__list">
+                           <a href="#" class="switch__link1">1 </a>
+                        </li>
+                        <li class="switch__list">
+                           <a href="#" class="switch__link">2 </a>
+                       </li>
+                       <li class="switch__list">
+                            <a href="#" class="switch__link">3 </a>
+                       </li>
+                       <li class="switch__list">
+                            <a href="#" class="switch__link">4 </a>
+                        </li>
+                        <li class="switch__list">
+                            <a href="#" class="switch__link">5 </a>
+                        </li>
+                        <li class="switch__list">
+                            <a href="#" class="switch__link">6 </a>
+                        </li>
+                        <li class="switch__list">
+                            <a href="#" class="switch__link">7 </a>
+                        </li>
+                    <div>
+                        <img src="pics/pic1.png" alt=" стрелка вторая" class="arrow1">
+                    </div>
+                </ul>
+            </div>
         </div>
     </div>
-
-</div>
-<nav class="menu">
-    <ul>
-        <li class="menu_items"> <a href="#" class="menu_items_link"> Главная </a> </li>
-        <li class="menu_items"> <a href="#" class="menu_items_link"> Отзывы </a> </li>
-        <li class="menu_items"> <a href="#"class="menu_items_link" > Экипаж </a> </li>
-    </ul>
-</nav>
-
-
-
-
-
-
-
-
+    </div>
 </body>
+<footer class="footer">
+     <div class="container">
+         <div class="footer__info">
+             <p class="footer__text"> Сделано с любовью и старанием  на курсе "HTML+CSS" в 
+            <a href="#" class="footer__link"> Loftschool.</a> <br> 
+            Автор работы: Чинара Гахраманова.
+            </p>
+            <img class="logo__img" alt=" логотип" src="pics/logo.png" >
+            <div class="social">
+                <p class="socialnetwork"> Наши социальные сети </p>
+                <a href="#" class="vk__link">
+                    <img class="vk" alt="вк" src="pics/vk.png" width="25" height="25">
+                </a>
+                <a href="#" class="fb__link">
+                    <img class="fb" alt="фейсбук" src="pics/fb.png" weigth="25" height="25">
+                </a>
+                <a href="#" class="google__link">
+                    <img class="google" alt=" гугл" src="pics/google.png" width="25" height="25">
+                </a>
+                <a href="#" class="twitter__link">
+                    <img class="twitter" alt=" твиттер " src="pics/twitter.png" width="27" height="27">
+                </a>
+                <a href="#" class="email__link">
+                    <img class="email"  alt=" почта "src="pics/email.png" width="25" height="25">
+                </a>
+         </div>
+    </div>
+</footer>
