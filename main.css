@@ -241,7 +241,7 @@ font-size: 45px;
 .price{
     justify-content: center;
     display: flex;
-    height: 40px;
+    font-weight:400;
     font-size: 54px;
     margin-top:10px;
     letter-spacing: -1.07px;
