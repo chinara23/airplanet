@@ -311,8 +311,6 @@ footer{
     margin-left: 220px;
     height: 70px;
 }
-
-}
 .listlist{
     position: relative;
 }
@@ -324,7 +322,8 @@ footer{
     background-color: black;
     border-radius: 50%;
     position: absolute;
-    left: 345px;
+    left: -20px;
+    top: 13px;
 }
 .socialnetwork {
     color: white;
@@ -336,6 +335,9 @@ footer{
 .social{
     margin-left: 260px;
 }
+.listlist1 {
+    position: relative;
+}
 .listlist1::before {
     content: "";
     display: block;
@@ -344,8 +346,8 @@ footer{
     background-color: black;
     border-radius: 50%;
     position: absolute;
-    left: 632px;
-    bottom: -375px;
+    left: -20px;
+    top: 13px;
 }
 .listlist2::before {
     content: "";
@@ -355,7 +357,11 @@ footer{
     background-color: black;
     border-radius: 50%;
     position: absolute;
-    left: 956px;
+    left: -20px;
+    top:13px;
+}
+.listlist2{
+    position:relative;
 }
 
     
