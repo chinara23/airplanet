@@ -1,11 +1,12 @@
 .header {
     background-color: #4b73b3;
-    height: 60px;
+    height: 75px;
 }
+
 .container {
     display: flex;
     margin: 0 auto;
-    width: 960px;
+    width: 1100px;
 }
 .contact {
     display: flex;
@@ -14,29 +15,355 @@
     width: 50%;
     justify-content: center;
 }
-.logo_header {
-    height: 60px;
+body {
+    font-family: 'Roboto', arial, sans-serif;
 }
 .logo {
     width: 50%;
 }
 .phone {
    color: white;
+   text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
 }
 .time {
     color: white;
+    height: 14px;
+    opacity: 0.7;
+    font-size: 14px; 
+    text-decoration: underline;   
+    display: inline-block; 
+    position: relative;
+
 }
+ .time:hover::after { 
+    content: attr(data-title); 
+    position: absolute;
+    right: 0px;
+    top: 30px; 
+    z-index: 100;
+    background: white ;
+    font-size: 14px;
+    padding: 5px 100px; /* Поля */
+    border: 10px solid white;
+    font-family: roboro, arial, sans-serif;
+    font-weight: 700;
+    color: black;
+    width: 164px;
+
+ }
 .menu {
-    margin: 0 auto;
-    width: 960px;
+    width: 200px;
 }
-.menu_items {
-    margin-bottom: 15px;
+.main {
+    color: black;   
 }
-.phone {
+.menu__items {
+    margin-bottom: 20px;
+    list-style-type: none;
+    letter-spacing: 2.4px;
+    width: 67px;
+    font-size: 12px;
+    font-weight: 700;
+    height: 9px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.menu__items__link{
     text-decoration: none;
+    margin-left: 40px;
 }
-.menu_items_link{
+
+.menu__list{
+   margin-top: 45px;
+   display: inline-block;
+}
+.comment::before{
+    background-image: url(pics/star.png);
+    display: block;
+    width: 35px;
+    height: 29px;
+    content: "";
+    position: absolute;
+    top: 162px;
+}
+.crew::before{
+    background-image: url(pics/crew_pic.png);
+    display: block;
+    width: 25px;
+    height: 26px;
+    content: "";
+    position: absolute;
+    top: 218px; 
+}
+.main::before{
+    background-image: url(pics/anchor.png);
+    display: block;
+    width: 25px;
+    height: 26px;
+    content: "";
+    position: absolute;
+    top: 120px;   
+}
+.comment{
+    color: #4b73b3;
+  
+}
+.crew{
+    color: #4b73b3;
+    
+}
+.standart{
+    margin-left: 50px;
+    font-size: 11px;    
+    line-height: 51.38px;
+    letter-spacing: 2.88px;
+
+}
+.premium{
+    margin-left: 50px;
+    font-size: 11px;    
+    line-height: 51.38px;
+    letter-spacing: 2.88px;
+}
+.laxherie{
+    margin-left: 50px;
+    font-size: 11px;    
+    line-height: 51.38px;
+    letter-spacing: 2.88px;
+}
+.flower{
+    background:#4b73b3;
+    border-radius: 50%;
+    width: 55px;
+    margin-top: 20px;
     text-decoration: none;
+    margin-left: 60px;
 }
+
+.tariff__standart{
+    flex-flow: column;
+    display: flex;
+    width: 250px;
+ 
+}
+.star__pic {
+    border-radius: 50%;
+    background: #4b73b3;
+    width: 55px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.painter{
+    border-radius: 50%;
+    background: #4b73b3;
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.tariff__list{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+.tariff__premium{
+    flex-flow: column;
+    margin: auto;
+    display: flex;
+    width: 250px;
+    margin-top: 0px;
+}
+.tariff {
+    width: 180px;
+    height: 70px;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.tariff__laxherie{
+    flex-flow: column;
+    margin: auto;
+    display: flex;
+    width: 250px; 
+    margin-top: 0px;
+}
+.info::before{
+    content: "";
+    color: black;
+    position: absolute;
+    weight: 10px;
+    height: 10px;
+}
+.inf::before{
+    content: "";
+    color: black;
+    position: absolute;
+}
+.info{
+    list-style-type: none;
+    width: 185px;
+    line-height: 30px;
+} 
+.news{
+    display: flex;
+}
+.the__last__news{
+    padding: 0;
+    margin-right: 0px;
+}
+.last__news {
+height: 70px;
+font-size: 45px;
+}
+.review {
+    border-bottom: 1px solid grey;
+    padding: 0px;
+    list-style-type: none;
+    display: flex-start;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
+}
+.review__info{
+    margin-right: 40px;
+    padding: 0;
+}
+
+.review:last-child{
+    border-bottom: none;
+}
+.review__date{
+    color: grey;
+    font-size: 18px;
+}
+
+.first__review{
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+.tariff__info{
+    justify-content: center;
+    display: flex;
+    font-size: 18px;        
+    line-height: 30px;
+}
+.price{
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    font-size: 54px;
+    margin-top:10px;
+    letter-spacing: -1.07px;
+
+}
+.news{
+    display: ;
+}
+.switch {
+    display: flex;
+    justify-content: center;
+}
+.switchlist{
+    display: flex;
+}
+.switch__list{
+    list-style-type: none;
+    margin: 5px;
+}
+.switch__link1:visited{
+    color: white;
+}
+.switch__link1{
+    border-radius: 10%;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background: #4b73b3;
+}
+.switch__link{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-left: 10px;
+}
+.pages {
+    margin-bottom: 0px;
+    color: #656464;
+}
+.arrow {
+    margin-top: 5px;
+}
+.arrow1{
+    margin-left: 5px;
+}
+.footer__info{
+    display: flex;
+}
+footer{
+    background-color: #4b73b3;
+    height: 75px;
+}
+.footer__text{
+    margin: 5px;
+    color: white;
+    width: 300px;
+}
+.footer__link{
+    color: white;
+}
+
+.logo__img{
+    margin-left: 220px;
+    height: 70px;
+}
+
+}
+.listlist{
+    position: relative;
+}
+.listlist::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width:  3px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 345px;
+}
+.socialnetwork {
+    color: white;
+    height: 20px;
+    font-size: 14px;
+    margin-top: 13px;
+    font-weight: 700;
+}
+.social{
+    margin-left: 260px;
+}
+.listlist1::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width:  3px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 632px;
+    bottom: -375px;
+}
+.listlist2::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width:  3px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 956px;
+}
+
     
