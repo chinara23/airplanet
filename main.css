@@ -345,12 +345,12 @@ footer{
 .social{
     margin-left: 260px;
 }
-.listlist1 {
+.first__list {
     position: relative;
     font-family: Roboto, arial, sans-serif;
     font-weight: 300;
 }
-.listlist1::before {
+.first__list::before {
     content: "";
     display: block;
     height: 3px;
@@ -361,7 +361,7 @@ footer{
     left: -20px;
     top: 13px;
 }
-.listlist2::before {
+.second__list::before {
     content: "";
     display: block;
     height: 3px;
@@ -372,7 +372,7 @@ footer{
     left: -20px;
     top:13px;
 }
-.listlist2{
+.second__list{
     position:relative;
     font-family: 'Roboto', arial, sans-serif;
     font-weight: 300;
