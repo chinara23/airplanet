@@ -219,6 +219,7 @@ font-size: 45px;
 .review__info{
     margin-right: 40px;
     padding: 0;
+    width: 644px;
 }
 .review__text{
     font-family: Roboto, arial, sans-serif;
