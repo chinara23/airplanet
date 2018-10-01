@@ -54,7 +54,8 @@ body {
     width: 200px;
 }
 .main {
-    color: black;   
+    color: black; 
+    text-transform: uppercase;
 }
 .menu__items {
     margin-bottom: 20px;
@@ -104,9 +105,11 @@ body {
 }
 .comment{
     color: #4b73b3;
+    text-transform: uppercase;
 }
 .crew{
     color: #4b73b3;   
+    text-transform: uppercase;
 }
 .standart{
     margin-left: 50px;
