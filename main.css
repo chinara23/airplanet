@@ -133,31 +133,39 @@ body {
     letter-spacing: 2.88px;
 }
 .flower{
-    background:#4b73b3;
+    background-image: url(pics/flower.png);
+    background-position: center;
+    background-color: #4b73b3;
     border-radius: 50%;
-    width: 55px;
-    margin-top: 20px;
-    text-decoration: none;
-    margin-left: 60px;
+    width: 68px;
+    height: 68px;
+    content: "";
+    margin-left: 50px;
+}
+.painter{
+    background-image: url(pics/painter.png);
+    background-position: center;
+    background-color: #4b73b3;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    content: "";
+    margin-left: 50px;
+}
+.star__pic{
+    background-image: url(pics/star_pic.png);
+    background-position: center;
+    background-color: #4b73b3;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    content: "";
+    margin-left: 50px;
 }
 .tariff__standart{
     flex-flow: column;
     display: flex;
     width: 250px;
-}
-.star__pic {
-    border-radius: 50%;
-    background: #4b73b3;
-    width: 55px;
-    margin-left: 60px;
-    margin-top: 20px;
-}
-.painter{
-    border-radius: 50%;
-    background: #4b73b3;
-    width: 55px;
-    margin-top: 20px;
-    margin-left: 60px;
 }
 .tariff{
     display: flex;
