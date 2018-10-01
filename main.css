@@ -200,7 +200,7 @@ body {
 .news{
     display: flex;
 }
-.the__last__news{
+.the__lastnews{
     padding: 0;
     margin-right: 0px;
 }
