@@ -273,6 +273,7 @@ font-size: 45px;
 .switch {
     display: flex;
     justify-content: center;
+    height:70px;
 }
 .switchlist{
     display: inline-flex;
