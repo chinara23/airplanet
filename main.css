@@ -83,7 +83,7 @@ body {
     height: 29px;
     content: "";
     position: absolute;
-    top: 162px;
+    top: 155px;
 }
 .crew::before{
     background-image: url(pics/crew_pic.png);
@@ -92,7 +92,7 @@ body {
     height: 26px;
     content: "";
     position: absolute;
-    top: 218px; 
+    top: 208px; 
 }
 .main::before{
     background-image: url(pics/anchor.png);
@@ -101,7 +101,7 @@ body {
     height: 26px;
     content: "";
     position: absolute;
-    top: 120px;   
+    top: 113px;   
 }
 .comment{
     color: #4b73b3;
@@ -213,8 +213,8 @@ body {
     margin-right: 0px;
 }
 .last__news {
-height: 70px;
-font-size: 45px;
+    height: 70px;
+    font-size: 45px;
 }
 .review {
     border-bottom: 1px solid grey;
@@ -310,9 +310,11 @@ font-size: 45px;
 }
 .arrow {
     margin-top: 5px;
+    text-decoration: none;
 }
 .nextarrow{
     margin-left: 5px;
+    text-decoration:none;
 }
 .footer__info{
     display: flex;
