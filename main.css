@@ -311,10 +311,12 @@ body {
 .arrow {
     margin-top: 5px;
     text-decoration: none;
+    color: black;
 }
 .nextarrow{
     margin-left: 5px;
     text-decoration:none;
+    color:black;
 }
 .footer__info{
     display: flex;
