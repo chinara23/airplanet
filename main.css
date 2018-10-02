@@ -275,7 +275,10 @@ font-size: 45px;
     justify-content: center;
 }
 .switchlist{
-    display: flex;
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 5px 10px;
+    margin: 0px;
 }
 .switchlist__list{
     list-style-type: none;
