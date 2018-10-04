@@ -207,6 +207,10 @@ content {
     margin-top: 49px;
     font-size: 48px;
 }
+.switcher__list {
+    margin-top: 11px;
+    margin-right: -24px;
+}
 .review {
      border-bottom: 1px solid grey;
     padding: 0px;
