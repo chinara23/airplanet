@@ -14,6 +14,10 @@
     width: 50%;
     justify-content: center;
 }
+.plane__pic {
+    margin-top: 9px;
+    margin-right: -10px;
+}
 body {
     font-family: 'Roboto', arial, sans-serif;
 }
@@ -94,6 +98,9 @@ body {
     position: absolute;
     top: 208px; 
 }
+content {
+   margin-left:10px;
+}
 .main::before{
     background-image: url(pics/anchor.png);
     display: block;
@@ -132,54 +139,28 @@ body {
     line-height: 51.38px;
     letter-spacing: 2.88px;
 }
-.flower{
-    background-image: url(pics/flower.png);
-    background-position: center;
-    background-color: #4b73b3;
-    border-radius: 50%;
-    width: 68px;
-    height: 68px;
-    content: "";
-    margin-left: 50px;
-}
-.painter{
-    background-image: url(pics/painter.png);
-    background-position: center;
-    background-color: #4b73b3;
-    border-radius: 50%;
-    width: 68px;
-    height: 68px;
-    content: "";
-    margin-left: 50px;
-}
-.star__pic{
-    background-image: url(pics/star_pic.png);
-    background-position: center;
-    background-color: #4b73b3;
-    border-radius: 50%;
-    width: 68px;
-    height: 68px;
-    content: "";
-    margin-left: 50px;
-}
 .tariff__standart{
     flex-flow: column;
     display: flex;
     width: 250px;
+    margin-top: 32px;
+    margin-right: 20px;
 }
 .tariff{
     display: flex;
     justify-content: flex-start;
     padding: 0;
+    margin-left: 82px;
 }
 .tariff__premium{
     flex-flow: column;
-    margin: auto;
+    margin-right: 20px;
     display: flex;
     width: 250px;
-    margin-top: 0px;
+    margin-top: 32px;
 }
 .tariff__title {
+    margin: 10px;
     width: 180px;
     height: 70px;
     font-size: 49px;
@@ -188,10 +169,10 @@ body {
 }
 .tariff__laxherie{
     flex-flow: column;
-    margin: auto;
     display: flex;
     width: 250px; 
-    margin-top: 0px;
+    margin-right: 20px;
+    margin-top: 32px;
 }
 .info::before{
     content: "";
@@ -204,25 +185,37 @@ body {
     list-style-type: none;
     width: 185px;
     line-height: 30px;
+    margin-left: -25px;
 } 
 .news{
     display: flex;
 }
-.the__lastnews{
+.reviews{
     padding: 0;
     margin-right: 0px;
 }
 .last__news {
     height: 70px;
     font-size: 45px;
+    margin-left: 20px;
+    margin-top: 49px;
+    font-size: 48px;
 }
 .review {
-    border-bottom: 1px solid grey;
+     border-bottom: 1px solid grey;
     padding: 0px;
     list-style-type: none;
     display: flex-start;
     padding-bottom: 30px;
     padding-top: 30px;
+    margin-top: -6px;
+    margin-left: 10px;
+}
+.tariff__name {
+    font-size: 11px;    
+    line-height: 51.38px;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
 }
 .review__info{
     margin-right: 40px;
@@ -232,26 +225,31 @@ body {
 .review__text{
     font-family: Roboto, arial, sans-serif;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 28px;
+    width: 700px;
+    font-size: 18px;
+    margin-bottom: -16px;
 }
 .review:last-child{
     border-bottom: none;
 }
 .review__date{
     color: grey;
-    font-size: 18px;
+    font-size: 14px;
+    margin-bottom: -17px;
 }
 .first__review{
     border-radius: 50%;
     margin-right: 20px;
 }
 .tariff__info{
-    justify-content: center;
+    margin: 0px;
     display: flex;
-    font-size: 18px;    
+    font-size: 18px;        
+    line-height: 30px;
     font-family: Roboto, arial, sans-serif;
     font-weight: 300;
-    line-height: 30px;
+    text-align: center;
 }
 .price{
     justify-content: center;
@@ -267,13 +265,11 @@ body {
     line-height: 57px;
     margin-top: 10px;
 }
-.news{
-    display: ;
-}
 .switch {
     display: flex;
     justify-content: center;
-    height:70px;
+    height: 72px;
+    margin-bottom: 35px;
 }
 .switchlist{
     display: inline-flex;
@@ -290,22 +286,25 @@ body {
 }
 .switchlist__linkone{
     border-radius: 10%;
-    padding: 5px;
+    padding: 5px 10px;
+    display: block;
     text-decoration: none;
+    color: black;
     background: #4b73b3;
 }
 .switchlist__link{
     text-decoration: none;
     color: black;
-    display: block;
+    height: 70px;
+    display: inline;
     margin-left: 10px;
 }
 .pages {
     color: #656464;
     display: inline;
     font-size: 14px;
-    margin-right: 15px;
-    margin-top: 10px;
+    margin-right: 6px;
+    margin-top: 24px;
 }
 .arrow {
     margin-top: 5px;
@@ -332,9 +331,8 @@ footer{
 .footer__link{
     color: white;
 }
-
 .logo__img{
-    margin-left: 220px;
+    margin-left: 184px;
     height: 70px;
 }
 .listlist{
@@ -395,5 +393,23 @@ footer{
     font-family: 'Roboto', arial, sans-serif;
     font-weight: 300;
 }
-
+.tariff__pic {
+    background-position: center;
+    background-color: #4b73b3;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    text-align: center;
+}
+.tariff__pic--painter{
+    background-image: url(pics/painter.png);
     
+}
+.tariff__pic--star{
+    background-image: url(pics/star_pic.png);
+  
+}
+.tariff__pic--flower {
+    background-image: url(pics/flower.png);
+}
+
