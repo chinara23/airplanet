@@ -321,6 +321,9 @@ content {
     margin-right: 17px;
     margin-top: 22px;
 }
+.switchlist__link--active{
+color:white;
+}
 .arrow {
     margin-right: -8px;
     margin-top: 5px;
