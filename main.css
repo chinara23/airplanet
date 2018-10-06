@@ -291,10 +291,10 @@ content {
     list-style-type: none;
     margin: 5px;
 }
-.switchlist__linkone:visited{
+.switchlist__link--active:visited{
     color: white;
 }
-.switchlist__linkone{
+.switchlist__link--active{
     border-radius: 10%;
     padding: 5px 10px;
     display: block;
@@ -313,10 +313,11 @@ content {
     color: #656464;
     display: inline;
     font-size: 14px;
-    margin-right: 6px;
-    margin-top: 24px;
+    margin-right: 17px;
+    margin-top: 22px;
 }
 .arrow {
+    margin-right: -8px;
     margin-top: 5px;
     text-decoration: none;
     color: black;
