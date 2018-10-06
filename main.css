@@ -192,7 +192,7 @@ content {
     list-style-type: none;
     width: 185px;
     line-height: 30px;
-    margin-left: -25px;
+    margin-left: 11px;
 } 
 .news{
     display: flex;
@@ -270,6 +270,7 @@ content {
     display: flex;
     font-weight:400;
     font-size: 54px;
+    margin-right: 39px;
     margin-top:10px;
     letter-spacing: -1.07px;
 }
