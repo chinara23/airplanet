@@ -213,7 +213,7 @@ content {
     margin-right: -24px;
 }
 .review {
-     border-bottom: 1px solid grey;
+    border-bottom: 1px solid #f5f5f5;
     padding: 0px;
     list-style-type: none;
     display: flex-start;
