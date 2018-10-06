@@ -157,7 +157,7 @@ content {
     display: flex;
     justify-content: flex-start;
     padding: 0;
-    margin-left: 82px;
+    margin-left: 27px;
 }
 .tariff__premium{
     flex-flow: column;
@@ -223,6 +223,8 @@ content {
     margin-left: 10px;
 }
 .tariff__name {
+    text-align: center;
+    margin: 5px;
     font-size: 11px;    
     line-height: 51.38px;
     text-transform: uppercase;
@@ -254,6 +256,7 @@ content {
     margin-right: 20px;
 }
 .tariff__info{
+    padding-left: 34px;
     margin: 0px;
     display: flex;
     font-size: 18px;        
@@ -413,6 +416,7 @@ footer{
     letter-spacing: 2.88px;
 }
 .tariff__pic {
+    margin-left: 87x;
     background-position: center;
     background-color: #4b73b3;
     border-radius: 50%;
