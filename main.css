@@ -372,10 +372,11 @@ footer{
     top: 13px;
 }
 .socialnetwork {
+    margin-bottom: 1px;
     color: white;
     height: 20px;
     font-size: 14px;
-    margin-top: 13px;
+    margin-top: 16px;
     font-weight: 700;
 }
 .social{
