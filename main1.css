@@ -459,7 +459,7 @@ footer{
 a {
     background-color: transparent;
 }
-.a:hover>.social{
+a:hover>.social{
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center center;
@@ -521,9 +521,3 @@ a {
 .menu__items-icon--comment {
     background-image: url(pics/stars.png);
 }
-.wrapper {
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
