@@ -371,17 +371,7 @@ footer{
     left: -20px;
     top: 13px;
 }
-.socialnetwork {
-    margin-bottom: 1px;
-    color: white;
-    height: 20px;
-    font-size: 14px;
-    margin-top: 16px;
-    font-weight: 700;
-}
-.social{
-    margin-left: 260px;
-}
+
 .first__list {
     position: relative;
     font-family: 'Roboto', arial, sans-serif;
@@ -441,3 +431,45 @@ footer{
     background-image: url(pics/flower.png);
 }
 
+.social {
+    background: #d2def3;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.social--vk {
+    background-image: url(pics/vk.png);
+}
+.social--twitter{
+    background-image: url(pics/twitter.png);
+}
+.social--fb{
+    background-image: url(pics/fb.png);
+}
+.social--google{
+    background-image: url(pics/google.png);
+}
+.social--email{
+    background-image: url(pics/email.png);
+}
+.socialicons {
+    margin-left: 260px;
+}
+.social__link{
+    display: inline-block;
+    margin-right: 5px;
+}
+.social__link:hover {
+    background-color: white;
+    border-radius: 50%;
+}
+a {
+    background-color: transparent;
+}
+a:hover>.social{
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
