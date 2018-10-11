@@ -343,7 +343,7 @@ color:white;
 .footer__info{
     display: flex;
 }
-footer{
+.footer{
     background-color: #4b73b3;
     height: 75px;
     width: 100vw;
