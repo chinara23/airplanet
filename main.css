@@ -475,3 +475,11 @@ a:hover>.social{
     background-repeat: no-repeat;
     background-position: center center;
 }
+.socialnetwork {
+    color: white;
+    height: 20px;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
