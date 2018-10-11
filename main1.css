@@ -521,3 +521,8 @@ a:hover>.social{
 .menu__items-icon--comment {
     background-image: url(pics/stars.png);
 }
+.wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
