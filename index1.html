@@ -29,17 +29,20 @@
                 <ul class="menu__list">
                     <li class="menu__items"> 
                         <a href="#" class="menu__items__link">
-                            <span class="main"> главная </span>
+                            <span class="menu__items-icon menu__items-icon--main "></span>
+                            <span class="menu__items-name menu__items-name-main"> главная </span>
                         </a>
                     </li>
                     <li class="menu__items"> 
                         <a href="#" class="menu__items__link">
-                            <span class="comment"> отзывы </span>
+                            <span class="menu__items-icon menu__items-icon--comment"></span>
+                            <span class="menu__items-name menu__items-name--comment"> отзывы </span>
                         </a>
                     </li>
                     <li class="menu__items"> 
                         <a href="#" class="menu__items__link"> 
-                            <span class="crew"> экипаж </span>
+                            <span class="menu__items-icon menu__items-icon--crew"></span>
+                            <span class="menu__items-name menu__items-name--crew"> экипаж </span>
                         </a>
                     </li>
                 </ul>
@@ -84,6 +87,7 @@
                         </div>    
                     </li>
                     <li class="comments">
+                        <div class="comments__logo"> </div>
                         <div class="comment_one"> 
                             <div class="comments__info">
                                 <div class="comments__date"> 14.08.2015 </div>
@@ -163,12 +167,19 @@
                 <div class="photobutton">
                     <div class="reviewphoto">
                         <h5 class="reviewphoto__title"> Отображать фото в отзыве?</h5>
-                        <input type="radio" class="reviewphoto__yes reviewphoto__yes" name="vacan"> Да
-                        <input type="radio" class="reviewphoto__yes reviewphoto__yes" name="vacan"> Нет
+                        <label class="reviewphoto__label">
+                            <input type="radio" class="reviewphoto__yes " name="radio" checked> 
+                            <span class="reviewphoto__fake"></span>
+                            <span class="reviewphoto__name"> Да</span>
+                        </label>
+                        <label class="reviewphoto__label">
+                            <input type="radio" class="reviewphoto__yes reviewphoto__yes--no" name="radio"> 
+                            <span class="reviewphoto__fake"></span>
+                            <span class="reviewphoto__name"> Нет</span>
+                        </label>
                     </div>
                     <div class="button">
-                        <button type="button" class="buttonsend">
-                             <h5 class="send"> Отправить </h5>
+                        <button type="button" class="buttonsend"> отправить
                              <span class="button__pic"> </span>
                         </button>
                     </div>
@@ -206,4 +217,6 @@
         </footer>
     </div>
 </body>
+
+
 
