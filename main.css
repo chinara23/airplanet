@@ -60,9 +60,44 @@ body {
 .menu {
     width: 200px;
 }
-.main {
-    color: black; 
+.logo__header {
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+.menu__items-name {
+    position: relative;
+    color:#4b73b3;   
     text-transform: uppercase;
+}
+.menu__items-icon{
+   background-repeat: no-repeat;
+    display: block;
+    width: 23px;
+    height: 22px;
+    margin-left: -32px;
+    margin-bottom: -16px; 
+    margin-top: -23px;
+}
+.menu__items:hover .menu__items-icon--crew{
+    background-image: url(pics/creew.png);
+}
+.menu__items:hover .menu__items-icon--main{
+    background-image: url(pics/anchor.png);
+}
+.menu__items:hover .menu__items-icon--comment{
+    background-image: url(pics/stars.png);
+}
+.menu__items:hover .menu__items-name{
+    color: black;
+}
+.menu__items-icon--crew{
+    background-image: url(pics/crew_pic.png);
+}
+.menu__items-icon--main{
+    background-image: url(pics/zaq.jpg);
+}
+.menu__items-icon--comment{
+    background-image: url(pics/star.png);
 }
 .menu__items {
     margin-bottom: 20px;
@@ -75,55 +110,19 @@ body {
     margin-bottom: 40px;
     font-family: 'Roboto', Arial, sans-serif;
 }
-.logo__header {
-    margin-left: 28px;
-    margin-bottom: 10px;
-}
-.menu__link{
+.menu__items__link{
     text-decoration: none;
     margin-left: 40px;
 }
 .menu__list{
-   margin-top: 45px;
-   display: inline-block;
-}
-.comment::before{
-    background-image: url(pics/star.png);
-    display: block;
-    width: 35px;
-    height: 29px;
-    content: "";
-    position: absolute;
-    top: 155px;
-}
-.crew::before{
-    background-image: url(pics/crew_pic.png);
-    display: block;
-    width: 25px;
-    height: 26px;
-    content: "";
-    position: absolute;
-    top: 208px; 
-}
+    margin-top: 48px;
+    display: inline-block;
+    width: 120px;
+    padding: 0px;
+    margin-left: 74px;
+ }
 content {
    margin-left:10px;
-}
-.main::before{
-    background-image: url(pics/anchor.png);
-    display: block;
-    width: 25px;
-    height: 26px;
-    content: "";
-    position: absolute;
-    top: 113px;   
-}
-.comment{
-    color: #4b73b3;
-    text-transform: uppercase;
-}
-.crew{
-    color: #4b73b3;   
-    text-transform: uppercase;
 }
 .standart{
     margin-left: 50px;
