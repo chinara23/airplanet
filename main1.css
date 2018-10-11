@@ -45,9 +45,40 @@ body {
 .menu {
     width: 200px;
 }
-.main {
+.menu__items-name {
+    position: relative;
     color:#4b73b3;   
     text-transform: uppercase;
+}
+.menu__items-icon{
+   background-repeat: no-repeat;
+    display: block;
+    width: 23px;
+    height: 22px;
+    margin-left: -32px;
+    margin-bottom: -16px; 
+    margin-top: -23px;
+}
+.menu__items:hover .menu__items-icon--crew{
+    background-image: url(pics/creew.png);
+}
+.menu__items:hover .menu__items-icon--main{
+    background-image: url(pics/anchor.png);
+}
+.menu__items:hover .menu__items-icon--comment{
+    background-image: url(pics/stars.png);
+}
+.menu__items:hover .menu__items-name{
+    color: black;
+}
+.menu__items-icon--crew{
+    background-image: url(pics/crew_pic.png);
+}
+.menu__items-icon--main{
+    background-image: url(pics/zaq.jpg);
+}
+.menu__items-icon--comment{
+    background-image: url(pics/star.png);
 }
 .menu__items {
     margin-bottom: 20px;
@@ -69,48 +100,11 @@ body {
     display: inline-block;
     width: 120px;
     padding: 0px;
-    margin-left: 20px;
- }
- .comment::before{
-     background-image: url(pics/star.png);
-     display: block;
-     width: 35px;
-     height: 29px;
-     content: "";
-     position: absolute;
-     top: 155px;
- }
- .crew::before{
-     background-image: url(pics/crew_pic.png);
-     display: block;
-     width: 25px;
-     height: 26px;
-     content: "";
-     position: absolute;
-     top: 208px; 
- }
- .main::before{
-     background-image: url(pics/zaq.jpg);
-     display: block;
-     width: 25px;
-     height: 25px;
-     background-repeat: no-repeat;
-     left: 152px;
-     content: "";
-     position: absolute;
-     top: 113px;   
- }
- .comment{
-     color: black;
-     text-transform: uppercase;
+    margin-left: 74px;
  }
  .breadcrumbs__link--active {
      color: black;
      text-decoration: none;
- }
- .crew{
-     color: #4b73b3;  
-     text-transform: uppercase;
  }
  .wrapper{
      height: 100%;
@@ -183,15 +177,12 @@ ul li {
 .comment_one{
     margin-left: 180px;
 }
-.comment_one::before{
+.comments__logo{
     background-image: url(pics/planet.png);
-    display: block;
-    width: 166px;
     height: 162px;
-    content: "";
-    position: absolute;
-    top: 723px ;
-    left: 320px;
+    background-repeat: no-repeat;
+    margin-bottom: -163px;
+
 }
 .comments__info {
     margin-top: 25px;
@@ -236,9 +227,6 @@ ul li {
 }
 .switchlist__link--active:visited{
     color: white;
-}
-.switchlist__link--active{
-    color:white;
 }
 .switchlist__link--active{
     border-radius: 10%;
@@ -309,7 +297,7 @@ ul li {
     padding-top: 42px;
     width: 623px;
     font-weight: 300;
-    margin-left: 352px;
+    margin-left: 388px;
     font-size: 18px;
     color: white;
     margin-top: 51px;
@@ -369,24 +357,19 @@ ul li {
     height: 45px;
     margin-top: -10px;
     background-color: #4b73b5;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-.send {
-    letter-spacing: 2.4px;
-    width: 87px;
-    height: 9px;
-    color: #ffffff; 
-    font-size: 16px;
-    margin-left: 7px;
-    margin-top: 4px;
-}
+
 .button__pic{
     background-image: url(pics/arroww.png);
     display: block;
     width: 20px;
     height: 20px;
-    margin-left: 112px;
-    margin-top: -38px;
-    
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 .photobutton {
     display: flex;
@@ -400,35 +383,10 @@ ul li {
     margin-top: 25px;
 
 }
-.reviewphoto{
-    width: 50%;
-    margin-left: 80px;
-}
-.reviewphoto__yes {
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid #4b73b3;
-}
-.reviewphoto__yes::before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background-color: #4b73b5;
-    position: absolute;
-    bottom: 186px;
-    left: 405px;
-    transition: .5s;
-}
 .breadcrumbs__link--main{
     color: #4b73b3;
 }
-.reviewphoto__yes:checked + .reviewphoto__yes::before{
-    width: 8px;
-    height: 8px;
-}
+
 .socialnetwork {
     color: white;
     height: 20px;
@@ -506,12 +464,60 @@ a:hover>.social{
     background-repeat: no-repeat;
     background-position: center center;
 }
-.buttonsend:hover{
-background-color: white;
+.buttonsend:hover {
+    background-color: white;
+    color: #4b73b5;
 }
-.send:hover{
-    color: #4b73b3;
-}
-.button__pic:hover{
+.buttonsend:hover .button__pic{
     background-image: url(pics/comments.png);
+}
+.reviewphoto__fake{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #4b73b3;
+    position: relative;
+    margin-right: 8px;
+}
+.reviewphoto__fake::before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color:  #4b73b3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -4px;
+    margin-left: -4px;
+    transition: .5s;
+}
+.reviewphoto__name {
+    vertical-align: middle;
+}
+.reviewphoto__yes:checked + .reviewphoto__fake::before {
+    width: 8px;
+    height: 8px;
+}
+.reviewphoto{
+    margin-left: 78px;
+    width: 50%;
+}
+.reviewphoto__yes{
+    position: absolute;
+    top: 0;
+    left: -9999px;
+}
+.reviewphoto__label{
+    position: relative;
+    display: inline-flex;
+    margin-right: 20px;
+}
+.menu__items-name--comment{
+    color: black;
+}
+.menu__items-icon--comment {
+    background-image: url(pics/stars.png);
 }
