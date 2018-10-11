@@ -342,8 +342,7 @@ footer{
     background-color: #4b73b3;
     height: 75px;
     width: 100vw;
-    position: absolute;
-    bottom:0;
+   
 }
 .footer__text{
     margin: 5px;
