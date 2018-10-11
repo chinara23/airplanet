@@ -99,9 +99,7 @@ body {
 .menu__items-icon--crew{
     background-image: url(pics/crew_pic.png);
 }
-.menu__items-icon--main{
-    background-image: url(pics/zaq.jpg);
-}
+
 .menu__items-icon--comment{
     background-image: url(pics/star.png);
 }
