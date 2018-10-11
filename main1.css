@@ -181,7 +181,10 @@ ul li {
     background-image: url(pics/planet.png);
     height: 162px;
     background-repeat: no-repeat;
-    margin-bottom: -163px;
+    margin-bottom: -180px;
+    margin-top: 26px;
+    margin-left: -186px;
+    width: 166px;
 
 }
 .comments__info {
@@ -189,7 +192,7 @@ ul li {
     margin-right: 40px;
     padding: 0;
 }
-.comments__date7{
+.comments__date{
     color: grey;
     font-size: 14px;
 }
