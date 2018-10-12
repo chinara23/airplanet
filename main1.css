@@ -187,6 +187,9 @@ ul li {
     width: 166px;
 
 }
+.switchlist__link--active{
+    color: black;
+}
 .comments__info {
     margin-top: 25px;
     margin-right: 40px;
