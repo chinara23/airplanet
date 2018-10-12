@@ -309,7 +309,8 @@ a:hover>.social{
 }
 .team__img--inna{
     margin-top: 5px;
+    margin-left: -4px;
 }
 .team__img--elena {
-    margin-top: 4px;
+    margin-top: -4px;
 }
