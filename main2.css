@@ -307,3 +307,9 @@ a:hover>.social{
     background-repeat: no-repeat;
     background-position: center center;
 }
+.team__img--inna{
+    margin-top: 5px;
+}
+.team__img--elena {
+    margin-top: 4px;
+}
