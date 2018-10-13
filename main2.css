@@ -303,7 +303,7 @@ footer{
 a {
     background-color: transparent;
 }
-a:hover>.social{
+.social:hover{
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center center;
