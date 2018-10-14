@@ -45,6 +45,7 @@ body {
     position: relative;
     color:#4b73b3;   
     text-transform: uppercase;
+    transition: 1s;
 }
 .menu__items-icon{
    background-repeat: no-repeat;
@@ -54,6 +55,7 @@ body {
     margin-left: -32px;
     margin-bottom: -16px; 
     margin-top: -23px;
+    transition: 1s;
 }
 .menu__items:hover .menu__items-icon--crew{
     background-image: url(pics/creew.png);
@@ -229,6 +231,7 @@ position: relative;
     margin-bottom: 15px;
     text-align: center;
     margin-top: 40px;
+    transition: 1s;
 }
 .partners__item:hover{
     filter: grayscale(0);
