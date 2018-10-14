@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', arial, sans-serif;
+}
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(pics/airplanet_intro.png) center center no-repeat;
+    background-size: cover;
+}
+.welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.welcome__logo{
+    margin-bottom: 20px;
+    margin-left: 44px;
+}
+.welcome__link{
+    display: block;
+    padding: 15px 22px;
+    border: solid 1px #4b73b3;
+    color: #4b73b3;
+    border-radius: 5px;
+    transition: 1s;
+}
+.welcome__link-name{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    color: #4b73b3;
+}
+.welcome_container{
+    display: flex;
+    flex-direction: column;
+    animation: animation 2.5s cubic-bezier(.94, .32, .97, .7);
+}
+
+@keyframes animation {
+   0%, 45%, 65%, 85%, 100% {
+       transform: translateY(0);
+   }
+   0%, 25% {
+       transform: translateY(0);
+       opacity: 0;
+   }
+   35%{
+       transform: translateY(-35);
+       opacity: 1;
+   }
+   55% {
+       transform: translateY(-20px);
+   }
+   75% {
+       transform: translateY(-10px);;
+   }
+   95% {
+       transform: translateY(-5px);
+   }
+}
+.welcome__link-pic{
+    background-image: url(pics/strela.png);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top:-20px ;
+    margin-left: 147px;
+}
+.welcome__link:hover{
+    background-color: #4b73b3;
+}
+.welcome__link:hover .welcome__link-name{
+    color: white;
+}
+.welcome__link:hover .welcome__link-pic{
+    background-image: url(pics/arroww.png);
+}
