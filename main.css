@@ -8,6 +8,9 @@
     margin: 0 auto;
     width: 1100px;
 }
+ul li {
+    list-style: none;
+}
 .contact {
     display: flex;
     text-align: right;
