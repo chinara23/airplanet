@@ -239,6 +239,13 @@ margin-left: 52px;
     border-radius: 50%;
 position: relative;
 }
+.team__item:hover .team__photo::before {
+    
+    opacity: 0;
+}
+.team__item:hover .team__names {
+    opacity: 0;
+}
 .team__photo::before{
     content: '';
     display: block;
@@ -250,6 +257,7 @@ position: relative;
     left: 0;
     bottom: 0;
     right: 0;
+    transition: 1s;
 }
  .team__name {
      text-align: center;
