@@ -158,9 +158,8 @@ body {
     text-transform: uppercase;
 }
 .comments__text {
-margin-top: 74px;
-font-size: 49px;
-margin-left: 62px;
+    font-size: 49px;
+    margin-left: 35px;
 }
 .team__text{
     font-weight: 300;
