@@ -222,7 +222,7 @@ position: relative;
 }
  .team__name {
      text-align: center;
-     font-size: 18px;
+     font-size: 17px;
      margin-bottom: 7px;
  }
 .team__profession {
@@ -233,7 +233,7 @@ position: relative;
 }
 .team__item{
     width: 29%;
-    margin-right: 34px;
+    margin-right: 33px;
 }
 .partners__list {
     display: flex;
@@ -264,9 +264,10 @@ position: relative;
     filter: grayscale(0);
 }
 .partners__title {
-    font-size: 49px;
-    margin-left: 63px;
-    margin-top: 53px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
 }
 .partners__pic--logoone {
     height: 30px;
@@ -350,10 +351,4 @@ a {
 .partners__pic--logosix{
     margin-left: 50px;
 }
-.team__item:hover .team__photo::before {
-    
-    opacity: 0;
-}
-.team__item:hover .team__names {
-    opacity: 0;
-}
+
