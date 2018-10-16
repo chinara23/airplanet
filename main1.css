@@ -241,6 +241,9 @@ content {
     padding: 0;
     width: 644px;
 }
+.content{
+    margin-left: 60px;
+}
 .review__text{
     font-family: Roboto, arial, sans-serif;
     font-weight: 300;
