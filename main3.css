@@ -314,9 +314,6 @@ footer{
 .social--email{
     background-image: url(pics/email.png);
 }
-.socialicons {
-    margin-left: 260px;
-}
 .social__link{
     display: inline-block;
     margin-right: 5px;
