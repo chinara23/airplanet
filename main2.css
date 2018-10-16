@@ -176,7 +176,7 @@ ul li {
     border-bottom: none;
 }
 .comments__text {
-   margin-top: 77px;
+   margin: 0;
    font-size: 49px;
 }
 .commentslist{
@@ -460,7 +460,7 @@ footer{
     background-image: url(pics/email.png);
 }
 .socialicons {
-    margin-left: 260px;
+    margin-left: 70px;
 }
 .social__link{
     display: inline-block;
