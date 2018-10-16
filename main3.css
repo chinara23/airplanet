@@ -167,6 +167,7 @@ body {
     line-height: 21px;
     font-size: 14px;
     margin-top: 6px;
+    margin-bottom: 30px;
 }
 .team__list {
     flex-flow: row wrap;
