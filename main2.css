@@ -242,9 +242,10 @@ ul li {
     list-style-type: none;
     margin: 5px;
 }
-.switchlist__link--active:visited{
+.switchlist__link--active{
     color: white;
 }
+
 .switchlist__link--active{
     border-radius: 10%;
     padding: 5px 10px;
