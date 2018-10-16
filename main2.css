@@ -258,6 +258,7 @@ ul li {
     height: 70px;
     display: inline;
     margin-left: 10px;
+    font-weight: 700;
 }
 .pages {
     color: #656464;
