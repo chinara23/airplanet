@@ -126,14 +126,13 @@ body {
     background-image: url(pics/star.png);
 }
 .menu__items {
-    margin-bottom: 20px;
+    margin-left: 133px;
     list-style-type: none;
     letter-spacing: 2.4px;
     width: 67px;
     font-size: 12px;
     font-weight: 700;
     height: 9px;
-    margin-bottom: 40px;
     font-family: 'Roboto', Arial, sans-serif;
 }
 .menu__items__link{
@@ -160,6 +159,7 @@ ul li {
     display: flex;
 }
 .content{
+    margin-left: 25px;
     flex-flow: column;
     width: 900px;
 }
@@ -308,14 +308,18 @@ ul li {
  margin-top: 35px;
 }
 .information{
-    padding-top: 42px;
-    width: 623px;
-    font-weight: 300;
-    margin-left: 388px;
+    text-align: center;
+    background-color: #4b73b3;
+    width: 280px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 250px;
+    width: 270px;
     font-size: 18px;
     color: white;
-    margin-top: 51px;
-    line-height: 27px;
+    line-height: 30px;
 }
 .reviews{
     display: flex;
