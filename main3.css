@@ -124,26 +124,24 @@ body {
     background-image: url(pics/star.png);
 }
 .menu__items {
-    margin-bottom: 20px;
+    margin-left: 130px;
     list-style-type: none;
     letter-spacing: 2.4px;
     width: 67px;
     font-size: 12px;
     font-weight: 700;
     height: 9px;
-    margin-bottom: 40px;
     font-family: 'Roboto', Arial, sans-serif;
 }
 .menu__items__link{
     text-decoration: none;
-    margin-left: 40px;
 }
 .menu__list{
     margin-top: 48px;
-    display: inline-block;
+    display: flex;
     width: 120px;
     padding: 0px;
-    margin-left: 74px;
+    margin-left: -60px;
  }
 .menu__items-name--crew{
     color: black;
@@ -175,8 +173,6 @@ margin-left: 62px;
     flex-flow: row wrap;
     display: flex;
     align-content: flex-end;
-text-wrap:  wrap;
-margin-left: 52px;
 }
 .team__names {
     font-weight: 700;
