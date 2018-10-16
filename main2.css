@@ -228,6 +228,9 @@ ul li {
     margin-top: 8px;
     margin-left: -78px;
 }
+.switchlist__link--active:visited{
+    color: white;
+}
 .switchlist{
     display: inline-flex;
     vertical-align: middle;
@@ -239,7 +242,7 @@ ul li {
     margin: 5px;
 }
 .switchlist__link--active{
-    color: white;
+    color:white;
 }
 
 .switchlist__link--active{
