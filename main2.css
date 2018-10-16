@@ -242,14 +242,10 @@ ul li {
     margin: 5px;
 }
 .switchlist__link--active{
-    color:white;
-}
-
-.switchlist__link--active{
     border-radius: 10%;
     padding: 5px 10px;
     text-decoration: none;
-    color: black;
+    color: white;
     background: #4b73b3;
 }
 .switchlist__link{
