@@ -154,6 +154,7 @@ body {
  }
 content {
    margin-left:10px;
+    margin-top: -7px;
 }
 .standart{
     margin-left: 50px;
@@ -166,7 +167,7 @@ content {
     flex-flow: column;
     display: flex;
     width: 250px;
-    margin-top: 32px;
+    margin-top: 25px;
     margin-right: 20px;
     border-left: 1px solid #f5f5f5;
     border-bottom: 1px solid #f5f5f5;
