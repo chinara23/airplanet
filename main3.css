@@ -10,6 +10,9 @@
 ul li {
     list-style: none;
 }
+.logo__header {
+    margin-left: 8px;
+}
 .contact {
     display: flex;
     text-align: right;
