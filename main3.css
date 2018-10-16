@@ -231,10 +231,7 @@ position: relative;
     width: 29%;
     margin-right: 33px;
 }
-.partners__list {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .partners__item{
     filter: grayscale(100%);
     width: 33.3%;
