@@ -280,15 +280,16 @@ footer{
     width: 100vw;
 }
 .footer__text{
-    margin: 5px;
+    margin: 8px;
     color: white;
+    margin-left: -17px;
     width: 300px;
 }
 .footer__link{
     color: white;
 }
 .logo__img{
-    margin-left: 584px;
+    margin-left: 620px;
     height: 70px;
 }
 .social {
