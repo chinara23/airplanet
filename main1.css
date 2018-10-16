@@ -147,7 +147,6 @@ body {
 }
 .menu__items__link{
     text-decoration: none;
-    margin-left: 40px;
 }
 .menu__list{
     margin: 0;
@@ -173,6 +172,10 @@ content {
     width: 250px;
     margin-top: 32px;
     margin-right: 20px;
+    border-left: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
 }
 .tariff{
     display: flex;
@@ -201,9 +204,6 @@ content {
     line-height: 30px;
     margin-left: 11px;
 } 
-.news{
-    display: flex;
-}
 .reviews{
     display: flex;
     padding: 0;
